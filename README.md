@@ -2,12 +2,12 @@
 
 Ansible uses Boto for AWS interactions, so you'll need that installed on your control host. I also used AWS CLI tools, so get those too.
 
-pip install python-boto awscli
+<i> pip install python-boto awscli </i>
 
 I worked on Ubuntu. So, to install Ansible:
 
-add-apt-repository ppa:ansible/ansible
-apt-get install ansible
+<i> add-apt-repository ppa:ansible/ansible
+apt-get install ansible </i>
 
 Now, there is one credentials.yml file where all the AWS related environment varaibles can be defined:
 
@@ -21,7 +21,7 @@ security_group: SECURITY_GROUP_ID
 
 Apart from this, you will need to setup a SSH key.
 
-ssh-keygen
+<i> ssh-keygen </i>
 
 And then copy the public key in the same directory (where Playbooks are cloned). This key is used to SSH to the new spawn instance.
 
