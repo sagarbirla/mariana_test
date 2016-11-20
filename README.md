@@ -6,8 +6,8 @@ Ansible uses Boto for AWS interactions, so you'll need that installed on your co
 
 I worked on Ubuntu. So, to install Ansible:
 
-<i> add-apt-repository ppa:ansible/ansible
-apt-get install ansible </i>
+<i> add-apt-repository ppa:ansible/ansible </i>
+<i> apt-get install ansible </i>
 
 Now, there is one credentials.yml file where all the AWS related environment varaibles can be defined:
 
