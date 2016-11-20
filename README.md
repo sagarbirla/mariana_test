@@ -11,12 +11,12 @@ I worked on Ubuntu. So, to install Ansible:
 
 Now, there is one credentials.yml file where all the AWS related environment varaibles can be defined:
 
-aws_access_key: YOUR_ACCESS_KEY
-aws_secret_key: YOUR_SECRET_KEY
-region: us-east-1
-  #MAKE SURE THAT SecG AND SubG both are in same VPC
-  #PORT 22 has to be open for SSH
-subnet_group: SUBNET_ID
+aws_access_key: YOUR_ACCESS_KEY </br>
+aws_secret_key: YOUR_SECRET_KEY </br>
+region: us-east-1 </br>
+  #MAKE SURE THAT SecG AND SubG both are in same VPC </br>
+  #PORT 22 has to be open for SSH </br>
+subnet_group: SUBNET_ID </br>
 security_group: SECURITY_GROUP_ID
 
 Apart from this, you will need to setup a SSH key.
