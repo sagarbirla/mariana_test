@@ -27,3 +27,7 @@ And then copy the public key in the same directory (where Playbooks are cloned).
 
 
 NOTE: Ubuntu 16.04 comes with Python3, whereas Ansible expects Python2 version. That's why, Python-2 was installed as the first task on remote machine.
+
+Tu execute:
+
+ansible-playbook mariana_test.yml
